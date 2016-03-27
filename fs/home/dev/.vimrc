@@ -85,13 +85,13 @@ let g:tagbar_type_go = {
 
 
 " shortcuts remap
-nmap <F2> :tabnew<CR>
-nmap <F3> :tabclose<CR>
+nmap <F3> :tabnew<CR>
+nmap <F4> :tabclose<CR>
 nmap <F5> :UndotreeToggle<CR>
-nmap <F7> :NERDTreeTabsToggle<CR>
+nmap <F2> :NERDTreeTabsToggle<CR>
 nmap <F8> :TagbarToggle<CR>
-nmap <C-Left> :tabprevious<CR>
-nmap <C-Right> :tabnext<CR>
+nmap <C-h> :tabprevious<CR>
+nmap <C-l> :tabnext<CR>
 
 " show a list of interfaces which is implemented by the type under your cursor
 au FileType go nmap <Leader>s <Plug>(go-implements)
