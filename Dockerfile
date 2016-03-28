@@ -1,6 +1,8 @@
 FROM golang:wheezy
 MAINTAINER Michele Bertasi
 
+LABEL uveio="public"
+
 ADD fs/ /
 
 # install pagkages
